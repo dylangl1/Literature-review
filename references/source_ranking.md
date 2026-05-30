@@ -21,7 +21,7 @@ Tier comes from `assets/source_tier_lookup.json` by domain match. Model never as
 
 | Tier | Definition | EU-context weight |
 |---|---|---|
-| **1** | Regulatory primary (EU and EU-recognised authoritative): EFSA, ECHA, EUR-Lex, RMS RAR/DAR, Commission Implementing Regs, EPPO standards, OECD Test Guidelines, OECD monographs, EU Reference Laboratories | Highest |
+| **1** | Regulatory primary (EU and EU-recognised authoritative): **EFSA, ECHA** (authoritative — define the EU regulatory landscape; Tier 1 status maintained regardless of occasional political pressure), EUR-Lex, RMS RAR/DAR, Commission Implementing Regs, EPPO standards, OECD Test Guidelines, OECD monographs, EU Reference Laboratories | Highest |
 | **2** | Authoritative secondary: non-EU national regulators (US EPA, PMRA, APVMA), international bodies (FAO/Codex, WHO/IPCS, IARC, NTP, OECD SIDS), established curated databases (PPDB, BPDB, eChemPortal, PubChem, ECHA C&L) | High (but EU-context tiebreak goes to Tier 1) |
 | **3** | Peer-reviewed primary literature (Tier-3-specialist journals listed below): J. Agric. Food Chem., Pest Manag. Sci., Environ. Toxicol. Chem., Chemosphere, Sci. Total Environ., Regul. Toxicol. Pharmacol., Food Chem. Toxicol., Arch. Toxicol., EFSA Journal, Environ. Sci. Technol., Ecotoxicol. Environ. Saf., J. Chromatogr. A, Anal. Chim. Acta, Crop Protection, Pest Manag. Sci., Weed Res., Plant Dis., Phytopathology, Ann. Work Expo. Health, Crit. Rev. Toxicol. | Per Klimisch / CRED / OHAT |
 | **4** | Grey literature: industry task force reports (COI), conference proceedings, theses (only if cited by Tier 1-3), preprints (non-peer-reviewed flag), trade press, advocacy NGO publications | Lowest; cite-replace applies |
@@ -226,6 +226,41 @@ This is critical in PPP context because the entire EU regulatory framework (Reg 
 ### Gate
 
 Gate Step 7 (forbidden language) extended to flag phrases that indicate conflation without exposure context: "causes cancer", "is carcinogenic to humans", "is toxic to consumers", "exceeds safe limits" without nearby exposure citation.
+
+---
+
+## 8b. Caveat sources (special handling)
+
+Some bodies are tier-citable (defensible as evidence) but carry methodological / framework / reputation caveats that require **cite-with-pairing**. Driven by `assets/credibility_rules.json` `caveat_sources`.
+
+### IARC (International Agency for Research on Cancer)
+
+- **Tier**: 2 (authoritative secondary; WHO body)
+- **Bias class**: CAVEAT (not NEUTRAL, not POLITICAL)
+- **Why caveat**:
+  - Hazard-identification-only framework (IARC Preamble 2019). Group 1 / 2A / 2B / 3 are hazard categories, NOT risk statements.
+  - Publicly available literature only — explicitly excludes unpublished registrant studies that form basis of EFSA / ECHA / EPA assessments. Datasets are different from EU regulatory datasets.
+  - Documented reputation issues: working-group composition disputes (glyphosate Monograph 112 / 2015 working group composition contested), selective mechanistic data weighting, divergence from regulatory consensus where full data is available.
+  - Has been used (downstream) by POLITICAL sources to claim regulatory legitimacy for hazard-as-risk conflations.
+
+### Cite protocol for IARC
+
+1. **Never cite IARC alone on carcinogenicity claims.**
+2. **Always paired** with the relevant EU regulatory consensus source(s) — EFSA Conclusion + ECHA RAC opinion where applicable.
+3. **Explicit divergence statement required** when IARC classification differs from EU classification. Format:
+   > IARC (Year, Monograph Vol N) classified [substance] as Group [X] based on publicly available literature only [CIT-IARC]. EFSA peer review (Year) and ECHA RAC (Year) concluded [classification or non-classification] based on the full regulatory dataset including registrant studies [CIT-EFSA, CIT-ECHA]. The divergence reflects different assessment frameworks (hazard identification with public-domain literature vs hazard identification + risk characterisation with full dataset).
+4. **Hazard-vs-risk distinction** explicitly stated. IARC Group 2A/2B/1 = hazard identification, NOT risk under registered GAP.
+5. **EU regulatory consensus cited first** in the paragraph; IARC follows as paired secondary view with framework note.
+
+### EFSA + ECHA explicitly authoritative
+
+EFSA and ECHA define the EU regulatory framework for PPPs. They are recognised as authoritative regardless of occasional political pressure (e.g. media scrutiny of CAS or RAC decisions). Tier 1 NEUTRAL status maintained. Where EFSA and ECHA diverge from each other (rare) or from non-EU bodies, document the divergence in the review; do not downgrade either party.
+
+This distinction matters because the entire EU PPP regulatory landscape (Reg 1107/2009 approval, Reg 396/2005 MRLs, Reg 2018/605 ED criteria, CLP harmonised classification) is operationally derived from EFSA Conclusions and ECHA opinions. A review that downgrades them is not a regulatory review.
+
+### Future caveat-source additions
+
+Other bodies meeting the caveat profile (hazard-only framework + reputation for divergence from regulatory consensus + selective literature base) may be added to `assets/credibility_rules.json` `caveat_sources`. Examples worth monitoring: certain NTP technical reports applying IARC-style framework; advocacy-aligned academic review groups.
 
 ---
 

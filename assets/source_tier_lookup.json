@@ -8,9 +8,9 @@
     "4": "Grey literature, preprints, trade press, NGO"
   },
   "domains": {
-    "efsa.europa.eu": { "tier": 1, "coi": "regulator", "notes": "EU Food Safety Authority" },
-    "efsa.onlinelibrary.wiley.com": { "tier": 1, "coi": "regulator", "notes": "EFSA Journal" },
-    "echa.europa.eu": { "tier": 1, "coi": "regulator", "notes": "European Chemicals Agency" },
+    "efsa.europa.eu": { "tier": 1, "coi": "regulator", "bias_class": "NEUTRAL", "authoritative": true, "notes": "EU Food Safety Authority. Authoritative for EU PPP regulatory work — defines the regulatory landscape. Tier 1 status maintained regardless of occasional political pressure." },
+    "efsa.onlinelibrary.wiley.com": { "tier": 1, "coi": "regulator", "bias_class": "NEUTRAL", "authoritative": true, "notes": "EFSA Journal — peer-reviewed by MS." },
+    "echa.europa.eu": { "tier": 1, "coi": "regulator", "bias_class": "NEUTRAL", "authoritative": true, "notes": "European Chemicals Agency. Authoritative for CLP harmonised classification + REACH + RAC opinions. Tier 1 status maintained regardless of occasional political pressure." },
     "eur-lex.europa.eu": { "tier": 1, "coi": "regulator", "notes": "EU legislation" },
     "ec.europa.eu/food": { "tier": 1, "coi": "regulator", "notes": "EU Commission DG SANTE" },
     "ec.europa.eu/health": { "tier": 1, "coi": "regulator", "notes": "EU Commission DG SANTE" },
@@ -28,7 +28,7 @@
     "apvma.gov.au": { "tier": 2, "coi": "regulator", "notes": "APVMA Australia" },
     "fao.org": { "tier": 2, "coi": "regulator", "notes": "FAO / Codex" },
     "who.int": { "tier": 2, "coi": "regulator", "notes": "WHO / IPCS" },
-    "iarc.who.int": { "tier": 2, "coi": "regulator", "notes": "IARC monographs" },
+    "iarc.who.int": { "tier": 2, "coi": "regulator", "bias_class": "CAVEAT", "cite_protocol": "paired_only", "notes": "IARC monographs. Hazard-identification-only framework; publicly available literature only (excludes registrant studies). Documented reputation for working-group composition disputes and selective evidence inclusion. Cite-with-pairing: never alone on carcinogenicity, always paired with EU regulatory consensus (EFSA / ECHA) and divergence noted. Per credibility_rules.json caveat_sources.iarc protocol." },
     "ntp.niehs.nih.gov": { "tier": 2, "coi": "regulator", "notes": "NTP" },
     "eppo.int": { "tier": 1, "coi": "regulator", "notes": "EPPO standards (efficacy)" },
     "sitem.herts.ac.uk": { "tier": 2, "coi": "academic", "notes": "PPDB / BPDB" },

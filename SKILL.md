@@ -1,6 +1,6 @@
 ---
 name: ppp-literature-review
-description: Rigorous, defensible literature reviews for EU plant protection product (PPP) regulatory work on active substances, metabolites, co-formulants, formulations. Use for literature reviews, evidence synthesis, hazard ID, risk analysis, data gap analysis vs Reg 283/284/2013, MRL review, Article 12 review, dossier/RAR support, renewal preparation, endocrine disruptor (ED) assessment, substitution assessment, data protection / reference product checks, weight-of-evidence (WoE), mode-of-action review, analytical method review, chemistry/MoA review, comparative substance review, scoping reviews, narrative-critical positions. Sources tiered by regulatory defensibility (EFSA/ECHA/RMS first, peer-reviewed second, grey literature last); citations verified pre-delivery; EFSA-style writing. Triggers: "lit review", "PPP review", "evidence synthesis", "what does EFSA say about", "data gap analysis", "WoE for", "ED assessment", "DP check", "RAR literature", "MRL review", "Article 12 review", "comparative review", "scoping review", "analytical method review", "/lit-review", "/ppp-review", "/evidence-synthesis".
+description: Defensible EU PPP regulatory literature reviews on active substances, metabolites, co-formulants, formulations. Covers hazard ID, risk analysis, data gap analysis vs Reg 283/284/2013, MRL review, Art.12, RAR/renewal, ED assessment (Reg 2018/605), substitution (Reg 2015/408), DP checks, WoE, MoA, analytical/chemistry, comparative, scoping, narrative-critical. Sources tiered EFSA/ECHA/RMS > peer-reviewed > grey; bias-class screening (POLITICAL cite-replace, IARC paired); citations verified; EFSA writing. Triggers: lit review, PPP review, evidence synthesis, data gap analysis, WoE, ED assessment, DP check, MRL review, Art.12 review, comparative review, scoping review, analytical method review, /lit-review, /ppp-review, /evidence-synthesis.
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash, WebSearch, WebFetch, AskUserQuestion, mcp__chemwise__search_substance, mcp__chemwise__get_registration_summary, mcp__chemwise__get_regulatory_status, mcp__chemwise__get_ppp_approval_status, mcp__chemwise__get_ppp_expiry_alerts, mcp__chemwise__get_mrl_status, mcp__chemwise__get_efsa_conclusion_metadata, mcp__chemwise__get_efsa_conclusion_fulltext, mcp__chemwise__search_efsa_conclusions, mcp__chemwise__get_cl_classification, mcp__chemwise__check_svhc, mcp__chemwise__list_svhc, mcp__chemwise__get_substance_review_history, mcp__chemwise__query_bcpc, mcp__chemwise__get_structure, mcp__chemwise__list_ppp_substances
 metadata:
     skill-author: Dylan Grimes Larkin (Regulatory Scientist @ Life Scientific)
@@ -36,7 +36,7 @@ These rules are NON-NEGOTIABLE regardless of model, archetype, or "quick" framin
 4. **QUANTITATIVE ANCHORS** require value + unit + species/matrix + source. All four. Missing one = orphan = fail.
 5. **IDENTITY VERIFIED BEFORE SEARCH.** CAS + EC + InChIKey confirmed across ≥2 sources before any literature search. Trade-name-only searches forbidden.
 6. **SOURCE TIER FROM LOOKUP, NOT JUDGEMENT.** `assets/source_tier_lookup.json` is authoritative. Cannot promote EFSA, cannot upgrade preprints.
-7. **BIAS-CLASS FROM LOOKUP.** `assets/credibility_rules.json` is authoritative. POLITICAL sources (PAN, EWG, Beyond Pesticides, FoE, Greenpeace, etc.) are NEVER standalone evidence. Cite-replace rule applies — locate upstream Tier 1-3 primary and cite that. PREDATORY publishers blocked. UNRELIABLE (Wikipedia, blogs, social) blocked for citation, discovery-only. TRADE-PRESS for market/factual context only, never scientific claim.
+7. **BIAS-CLASS FROM LOOKUP.** `assets/credibility_rules.json` is authoritative. EFSA + ECHA = authoritative Tier 1 NEUTRAL (define EU regulatory landscape; status unchanged by political pressure). POLITICAL sources (PAN, EWG, Beyond Pesticides, FoE, Greenpeace, etc.) are NEVER standalone evidence — cite-replace rule applies. CAVEAT sources (IARC) require pairing with EU regulatory consensus (EFSA + ECHA) on the contested topic; framework divergence explicitly stated. PREDATORY publishers blocked. UNRELIABLE (Wikipedia, blogs, social) blocked for citation, discovery-only. TRADE-PRESS for market/factual context only, never scientific claim.
 8. **CONTESTED ENDPOINTS** require triangulation: ≥1 Tier 1-2 source AND ≥1 independent peer-reviewed Tier 3 corroboration. Single-source on contested endpoint → hedging downgrade + [single-source] tag in ledger.
 9. **HAZARD vs RISK** distinction preserved. Hazard classification (CLP CMR, IARC 2A/2B) does NOT equal risk under registered GAP. Claims crossing the boundary require explicit exposure context (PEC, MoE, dietary intake, IESTI) in adjacent text or are reframed/dropped.
 10. **CONTRACT-DRIVEN.** Phase 1.5 emits `OUTPUT-CONTRACT.md` + `.json`. All downstream phases must satisfy the contract. Phase 8 gate is mechanical, not judgemental.
@@ -211,8 +211,9 @@ Before quality appraisal. Apply the decision tree in `references/source_ranking.
      d. If primary Tier 4 or absent: claim not citable; drop.
      e. POLITICAL source NEVER appears in `CITATION-LEDGER.md` as standalone evidence. Exception: review's question is *about* the position itself, or narrative-critical archetype counter-evidence section.
    - **TRADE-PRESS**: permitted for market/factual context only; BLOCK if used for scientific claim.
+   - **CAVEAT** (IARC and other caveat_sources per `credibility_rules.json`): ACCEPT at tier, but apply **cite-with-pairing rule** — never cite alone on the contested topic. Pair with relevant regulatory consensus (EFSA + ECHA for EU carcinogenicity claims). State framework divergence explicitly. EU regulatory consensus cited first in paragraph; CAVEAT source follows.
    - **DECLARED-COI** (industry / manufacturer / consultancy): ACCEPT with `coi` flag in ledger row; tier unchanged.
-   - **NEUTRAL**: ACCEPT at tier.
+   - **NEUTRAL**: ACCEPT at tier. EFSA and ECHA are explicitly authoritative — Tier 1 NEUTRAL maintained regardless of occasional political pressure.
 4. **Grey-listed publishers** (MDPI, Frontiers, Hindawi case-by-case per `credibility_rules.json` grey_listed): default Tier 3 with `peer_review_rigour: questioned` flag; downweight for contested endpoints.
 5. **Echo-chamber check**: walk citation chain. If only POLITICAL or TRADE-PRESS sources cite the claim → drop. Require ≥1 independent Tier 1-3 corroborator.
 6. **Hazard-vs-risk guard**: scan claim text for forbidden_unguarded phrases (per `credibility_rules.json` hazard_vs_risk_guard). Any claim crossing hazard→risk without exposure context must be reframed or dropped.
@@ -320,6 +321,12 @@ done
 # Step 13: no UNRELIABLE sources in ledger
 jq -r '.unreliable_block.domains[]' assets/credibility_rules.json | while read D; do
   grep -q "$D" CITATION-LEDGER.md && echo "FAIL unreliable-source in ledger: $D -> Phase 4.5" || true
+done
+
+# Step 13b: CAVEAT sources (e.g. IARC) — must be paired with EU regulatory consensus on the same claim
+awk -F'|' 'NR>2 && $0 ~ /CAVEAT/ {print $2}' CITATION-LEDGER.md | while read CLAIM; do
+  # Verify ≥1 NEUTRAL Tier-1 EU-regulator row (efsa.europa.eu or echa.europa.eu) supports same claim
+  grep -E "(efsa\.europa\.eu|echa\.europa\.eu).*${CLAIM}" CITATION-LEDGER.md >/dev/null || echo "FAIL CAVEAT-unpaired: '$CLAIM' needs EFSA or ECHA pairing -> Phase 4.5"
 done
 
 # Step 14: echo-chamber check — every advocacy/trade-press ledger row needs ≥1 tier ≤2 corroborator
@@ -469,6 +476,7 @@ Generated to `QUALITY-CHECKLIST.md` at Phase 1.5; ticked through Phases 2-7; gat
 - [ ] No POLITICAL sources as standalone evidence (cite-replace applied)
 - [ ] No PREDATORY publishers in ledger
 - [ ] No UNRELIABLE sources (Wikipedia, blogs, social) in ledger
+- [ ] CAVEAT sources (IARC etc.) cited with EFSA/ECHA pairing + divergence noted (not alone on contested claims)
 - [ ] Echo-chamber check passed (every advocacy/trade-press row has Tier 1-2 corroborator)
 - [ ] Contested endpoints triangulated (≥1 Tier 1-2 + ≥1 independent Tier 3)
 - [ ] Hazard-vs-risk distinction preserved (no unguarded conflation)

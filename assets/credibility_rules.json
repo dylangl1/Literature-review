@@ -2,9 +2,10 @@
   "schema_version": "1.0",
   "description": "Credibility / bias rules orthogonal to tier. Used by Phase 4.5 Credibility Triage + Phase 7 verification + Phase 8 gate. Bias class is separate from tier (a Tier-3 peer-reviewed paper can be DECLARED-COI; a Tier-4 grey source can be NEUTRAL).",
   "bias_classes": {
-    "NEUTRAL": "Regulator, academic, public research institute, non-affiliated researcher",
+    "NEUTRAL": "Regulator (incl. authoritative EU bodies EFSA/ECHA), academic, public research institute, non-affiliated researcher",
     "DECLARED_COI": "Industry-funded, manufacturer-employed authors, registrant data",
     "POLITICAL": "Advocacy NGO with declared anti or pro-PPP agenda",
+    "CAVEAT": "Authoritative body with recognised methodological / framework / reputation caveats (e.g. IARC). Cite-with-pairing rule applies — never alone on the contested topic; always paired with relevant regulatory consensus and divergence noted.",
     "PREDATORY": "Beall/Cabells listed publisher; pay-to-publish without rigorous peer review",
     "TRADE_PRESS": "Industry trade outlets; market/factual context only",
     "UNRELIABLE": "Wikipedia, blogs, social media, anonymous web sources"
@@ -152,6 +153,36 @@
       "agroinsight.com"
     ]
   },
+  "authoritative_status_note": {
+    "description": "EFSA and ECHA are recognised as authoritative for EU PPP regulatory work regardless of occasional political pressure. They are the EU regulatory framework. Tier 1 NEUTRAL status maintained. Where their conclusions diverge from each other or from other bodies, document the divergence; do not downgrade either."
+  },
+  "caveat_sources": {
+    "description": "Bodies that are citable and accessible, but carry recognised methodological / framework / reputation caveats. Cite-with-pairing rule applies: never alone on the contested topic; always paired with the relevant regulatory consensus source(s) and the divergence noted explicitly.",
+    "iarc": {
+      "domain": "iarc.who.int",
+      "tier": 2,
+      "bias_class": "CAVEAT",
+      "rationale": "IARC operates under a hazard-identification-only framework (Preamble to the Monographs, 2019). Uses publicly available literature only — excludes unpublished registrant studies that form the basis of EFSA / ECHA / EPA assessments. Group classifications (1, 2A, 2B, 3) are hazard categories, not risk statements. Has documented reputation for working-group composition disputes (glyphosate 2015), selective evidence inclusion (mechanistic data weighting), and divergence from regulatory consensus where the full dataset is available. Treat IARC findings as scientifically interesting hazard signals — not as regulatory conclusions.",
+      "cite_protocol": [
+        "Always paired with relevant EU regulatory consensus (EFSA Conclusion, ECHA RAC opinion) when cited.",
+        "Explicit divergence statement required when IARC classification differs from EU classification.",
+        "Hazard-vs-risk distinction explicitly preserved: IARC Group 2A/2B/1 is hazard identification, not risk under registered GAP.",
+        "Note framework limitation: 'IARC assessment based on publicly available literature; EU assessment includes full regulatory dataset including registrant studies' or equivalent.",
+        "Never cite IARC alone on carcinogenicity claims.",
+        "Never use IARC classification as proof of human carcinogenicity at exposure-relevant doses without explicit MoE / exposure context."
+      ],
+      "applicable_substances_recent": [
+        "glyphosate (2A, 2015 — diverges from EFSA 2023, ECHA RAC 2022)",
+        "malathion (2A, 2015)",
+        "diazinon (2A, 2015)",
+        "tetrachlorvinphos (2B, 2015)",
+        "parathion (2B, 2015)",
+        "DDT (2A, 2015)",
+        "lindane (1, 2015)"
+      ]
+    },
+    "future_additions": "Other bodies meeting the caveat profile (hazard-only framework + reputation for divergence from regulatory consensus + selective literature base) may be added here. Examples worth monitoring: certain NTP technical reports where IARC-style framework applied; certain advocacy-aligned academic review groups."
+  },
   "contested_endpoints": {
     "description": "Endpoints with high political loading or active regulatory dispute. Triangulation rule applies: ≥1 Tier 1-2 source AND ≥1 independent peer-reviewed Tier 3 corroboration required. Single-source claims downgrade hedging.",
     "list": [
@@ -206,9 +237,10 @@
       {
         "political_framing": "PAN Europe: 'Glyphosate is a probable carcinogen banned by science'",
         "upstream_primary": "IARC Monograph Vol 112 (2017): Group 2A 'probably carcinogenic to humans' based on limited human evidence and sufficient animal evidence",
-        "regulatory_counter": "EFSA Conclusion 2023 + ECHA RAC 2022: no classification as carcinogen warranted under CLP based on full dataset",
-        "review_text": "IARC classified glyphosate as Group 2A [CIT-IARC-2017]; EFSA peer review (2023) and ECHA RAC (2022) concluded no CLP carcinogen classification warranted [CIT-EFSA-2023, CIT-ECHA-2022]. Divergence reflects different assessment frameworks (hazard identification with public-domain literature only vs full regulatory dataset including registrant studies).",
-        "what_was_dropped": "PAN framing; advocacy citation"
+        "regulatory_consensus": "EFSA Conclusion 2023 + ECHA RAC 2022: no CLP carcinogen classification warranted based on full dataset including registrant studies",
+        "review_text": "EFSA peer review (2023) and ECHA RAC opinion (2022) concluded no CLP carcinogen classification warranted for glyphosate based on the full regulatory dataset including registrant studies [CIT-EFSA-2023, CIT-ECHA-2022]. IARC (2015, Monograph Vol 112) classified glyphosate as Group 2A based on publicly available literature only [CIT-IARC-2015]. The divergence reflects different assessment frameworks: IARC operates a hazard-identification framework using public-domain literature; EU regulatory peer review applies a hazard identification + risk characterisation framework using the full dataset, including unpublished registrant studies. IARC's Group 2A is a hazard category, not a statement of risk under registered GAP.",
+        "what_was_dropped": "PAN framing; advocacy citation",
+        "notes": "Regulatory consensus (EFSA + ECHA) cited first; IARC cited paired with explicit framework-divergence note per caveat_sources protocol; hazard-vs-risk distinction explicitly stated."
       },
       {
         "political_framing": "EWG: 'Strawberries contain dangerous pesticide residues'",
