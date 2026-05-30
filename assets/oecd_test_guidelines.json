@@ -1,0 +1,552 @@
+[
+  {
+    "section": "1",
+    "tg_num": "102",
+    "title": "Melting Point / Melting Range",
+    "page_url": "https://www.oecd.org/en/publications/test-no-102-melting-point-melting-range_9789264069527-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/1995/07/test-no-102-melting-point-melting-range_g1gh28c9/9789264069527-en.pdf",
+    "pubid": "9789264069527"
+  },
+  {
+    "section": "1",
+    "tg_num": "104",
+    "title": "Vapour Pressure",
+    "page_url": "https://www.oecd.org/en/publications/test-no-104-vapour-pressure_9789264069565-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2006/07/test-no-104-vapour-pressure_g1gh28cd/9789264069565-en.pdf",
+    "pubid": "9789264069565"
+  },
+  {
+    "section": "1",
+    "tg_num": "106",
+    "title": "Adsorption-Desorption Using a Batch Equilibrium Method",
+    "page_url": "https://www.oecd.org/en/publications/test-no-106-adsorption-desorption-using-a-batch-equilibrium-method_9789264069602-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2000/01/test-no-106-adsorption-desorption-using-a-batch-equilibrium-method_g1gh28d1/9789264069602-en.pdf",
+    "pubid": "9789264069602"
+  },
+  {
+    "section": "1",
+    "tg_num": "109",
+    "title": "Density of Liquids and Solids",
+    "page_url": "https://www.oecd.org/en/publications/test-no-109-density-of-liquids-and-solids_9789264123298-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2012/10/test-no-109-density-of-liquids-and-solids_g1g23b28/9789264123298-en.pdf",
+    "pubid": "9789264123298"
+  },
+  {
+    "section": "1",
+    "tg_num": "111",
+    "title": "Hydrolysis as a Function of pH",
+    "page_url": "https://www.oecd.org/en/publications/test-no-111-hydrolysis-as-a-function-of-ph_9789264069701-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2004/11/test-no-111-hydrolysis-as-a-function-of-ph_g1gh28db/9789264069701-en.pdf",
+    "pubid": "9789264069701"
+  },
+  {
+    "section": "1",
+    "tg_num": "114",
+    "title": "Viscosity of Liquids",
+    "page_url": "https://www.oecd.org/en/publications/test-no-114-viscosity-of-liquids_9789264185180-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2012/10/test-no-114-viscosity-of-liquids_g1g23f67/9789264185180-en.pdf",
+    "pubid": "9789264185180"
+  },
+  {
+    "section": "1",
+    "tg_num": "117",
+    "title": "Partition Coefficient (n-Octanol/Water), HPLC Method",
+    "page_url": "https://www.oecd.org/en/publications/test-no-117-partition-coefficient-n-octanol-water-hplc-method_9789264069824-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2022/06/test-no-117-partition-coefficient-n-octanol-water-hplc-method_g1gh28e7/9789264069824-en.pdf",
+    "pubid": "9789264069824"
+  },
+  {
+    "section": "1",
+    "tg_num": "119",
+    "title": "Low Molecular Weight Content of a Polymer by GPC",
+    "page_url": "https://www.oecd.org/en/publications/test-no-119-determination-of-the-low-molecular-weight-content-of-a-polymer-using-gel-permeation-chromatography_9789264069862-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/1996/06/test-no-119-determination-of-the-low-molecular-weight-content-of-a-polymer-using-gel-permeation-chromatography_g1gh28eb/9789264069862-en.pdf",
+    "pubid": "9789264069862"
+  },
+  {
+    "section": "1",
+    "tg_num": "120",
+    "title": "Solution/Extraction Behaviour of Polymers in Water",
+    "page_url": "https://www.oecd.org/en/publications/test-no-120-solution-extraction-behaviour-of-polymers-in-water_9789264069886-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2000/01/test-no-120-solution-extraction-behaviour-of-polymers-in-water_g1gh28ed/9789264069886-en.pdf",
+    "pubid": "9789264069886"
+  },
+  {
+    "section": "1",
+    "tg_num": "121",
+    "title": "Estimation of Adsorption Coefficient (Koc) on Soil and Sewage Sludge by HPLC",
+    "page_url": "https://www.oecd.org/en/publications/test-no-121-estimation-of-the-adsorption-coefficient-koc-on-soil-and-on-sewage-sludge-using-high-performance-liquid-chromatography-hplc_9789264069909-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2001/01/test-no-121-estimation-of-the-adsorption-coefficient-koc-on-soil-and-on-sewage-sludge-using-high-performance-liquid-chromatography-hplc_g1gh28ef/9789264069909-en.pdf",
+    "pubid": "9789264069909"
+  },
+  {
+    "section": "1",
+    "tg_num": "122",
+    "title": "Determination of pH, Acidity and Alkalinity",
+    "page_url": "https://www.oecd.org/en/publications/test-no-122-determination-of-ph-acidity-and-alkalinity_9789264203686-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2013/07/test-no-122-determination-of-ph-acidity-and-alkalinity_g1g34034/9789264203686-en.pdf",
+    "pubid": "9789264203686"
+  },
+  {
+    "section": "1",
+    "tg_num": "123",
+    "title": "Partition Coefficient (1-Octanol/Water), Slow-Stirring Method",
+    "page_url": "https://www.oecd.org/en/publications/test-no-123-partition-coefficient-1-octanol-water-slow-stirring-method_9789264015845-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2022/06/test-no-123-partition-coefficient-1-octanol-water-slow-stirring-method_g1gh7328/9789264015845-en.pdf",
+    "pubid": "9789264015845"
+  },
+  {
+    "section": "1",
+    "tg_num": "124",
+    "title": "Volume Specific Surface Area of Manufactured Nanomaterials",
+    "page_url": "https://www.oecd.org/en/publications/test-no-124-determination-of-the-volume-specific-surface-area-of-manufactured-nanomaterials_abb72f8f-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2022/06/test-no-124-determination-of-the-volume-specific-surface-area-of-manufactured-nanomaterials_2fa1e005/abb72f8f-en.pdf",
+    "pubid": "abb72f8f"
+  },
+  {
+    "section": "1",
+    "tg_num": "125",
+    "title": "Particle Size and Particle Size Distribution of Nanomaterials",
+    "page_url": "https://www.oecd.org/en/publications/test-no-125-nanomaterial-particle-size-and-size-distribution-of-nanomaterials_af5f9bda-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/07/test-no-125-nanomaterial-particle-size-and-size-distribution-of-nanomaterials_4e91976f/af5f9bda-en.pdf",
+    "pubid": "af5f9bda"
+  },
+  {
+    "section": "1",
+    "tg_num": "126",
+    "title": "Hydrophobicity Index of Nanomaterials Through an Affinity Measurement",
+    "page_url": "https://www.oecd.org/en/publications/test-no-126-determination-of-the-hydrophobicity-index-of-nanomaterials-through-an-affinity-measurement_ae9c0fd1-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/07/test-no-126-determination-of-the-hydrophobicity-index-of-nanomaterials-through-an-affinity-measurement_719613df/ae9c0fd1-en.pdf",
+    "pubid": "ae9c0fd1"
+  },
+  {
+    "section": "2",
+    "tg_num": "203",
+    "title": "Fish Acute Toxicity Test",
+    "page_url": "https://www.oecd.org/en/publications/test-no-203-fish-acute-toxicity-test_9789264069961-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2019/06/test-no-203-fish-acute-toxicity-test_g1gh28f5/9789264069961-en.pdf",
+    "pubid": "9789264069961"
+  },
+  {
+    "section": "2",
+    "tg_num": "210",
+    "title": "Fish, Early-life Stage Toxicity Test",
+    "page_url": "https://www.oecd.org/en/publications/test-no-210-fish-early-life-stage-toxicity-test_9789264203785-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2013/07/test-no-210-fish-early-life-stage-toxicity-test_g1g3403e/9789264203785-en.pdf",
+    "pubid": "9789264203785"
+  },
+  {
+    "section": "2",
+    "tg_num": "218",
+    "title": "Sediment-Water Chironomid Toxicity Test Using Spiked Sediment",
+    "page_url": "https://www.oecd.org/en/publications/test-no-218-sediment-water-chironomid-toxicity-using-spiked-sediment_9789264070264-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/07/test-no-218-sediment-water-chironomid-toxicity-using-spiked-sediment_g1gh4b40/9789264070264-en.pdf",
+    "pubid": "9789264070264"
+  },
+  {
+    "section": "2",
+    "tg_num": "219",
+    "title": "Sediment-Water Chironomid Toxicity Test Using Spiked Water",
+    "page_url": "https://www.oecd.org/en/publications/test-no-219-sediment-water-chironomid-toxicity-using-spiked-water_9789264070288-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/07/test-no-219-sediment-water-chironomid-toxicity-using-spiked-water_g1gh4b41/9789264070288-en.pdf",
+    "pubid": "9789264070288"
+  },
+  {
+    "section": "2",
+    "tg_num": "236",
+    "title": "Fish Embryo Acute Toxicity (FET) Test",
+    "page_url": "https://www.oecd.org/en/publications/test-no-236-fish-embryo-acute-toxicity-fet-test_9789264203709-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2013/07/test-no-236-fish-embryo-acute-toxicity-fet-test_g1g34036/9789264203709-en.pdf",
+    "pubid": "9789264203709"
+  },
+  {
+    "section": "2",
+    "tg_num": "239",
+    "title": "Water-Sediment Myriophyllum spicatum Test",
+    "page_url": "https://www.oecd.org/en/publications/test-no-239-water-sediment-myriophyllum-spicatum-toxicity-test_9789264224155-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2014/09/test-no-239-water-sediment-myriophyllum-spicatum-toxicity-test_g1g4a7ec/9789264224155-en.pdf",
+    "pubid": "9789264224155"
+  },
+  {
+    "section": "2",
+    "tg_num": "240",
+    "title": "Medaka Extended One-Generation Reproduction Test",
+    "page_url": "https://www.oecd.org/en/publications/test-no-240-medaka-extended-one-generation-reproduction-test-meogrt_9789264242258-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/07/test-no-240-medaka-extended-one-generation-reproduction-test-meogrt_g1g59849/9789264242258-en.pdf",
+    "pubid": "9789264242258"
+  },
+  {
+    "section": "2",
+    "tg_num": "244",
+    "title": "Protozoan Activated Sludge Inhibition Test",
+    "page_url": "https://www.oecd.org/en/publications/test-no-244-protozoan-activated-sludge-inhibition-test_9789264284029-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2017/10/test-no-244-protozoan-activated-sludge-inhibition-test_g1g83793/9789264284029-en.pdf",
+    "pubid": "9789264284029"
+  },
+  {
+    "section": "2",
+    "tg_num": "248",
+    "title": "Xenopus Eleutheroembryonic Thyroid Assay (XETA)",
+    "page_url": null,
+    "pdf_url": null
+  },
+  {
+    "section": "2",
+    "tg_num": "249",
+    "title": "Fish Cell Line Acute Toxicity (RTgill-W1 Cell Line Assay)",
+    "page_url": "https://www.oecd.org/en/publications/test-no-249-fish-cell-line-acute-toxicity-the-rtgill-w1-cell-line-assay_c66d5190-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2021/06/test-no-249-fish-cell-line-acute-toxicity-the-rtgill-w1-cell-line-assay_85234996/c66d5190-en.pdf",
+    "pubid": "c66d5190"
+  },
+  {
+    "section": "2",
+    "tg_num": "250",
+    "title": "EASZY Assay: Detection of Endocrine Active Substances via Estrogen Receptors Using Transgenic Zebrafish Embryos",
+    "page_url": "https://www.oecd.org/en/publications/test-no-250-easzy-assay-detection-of-endocrine-active-substances-acting-through-estrogen-receptors-using-transgenic-tg-cyp19a1b-gfp-zebrafish-embryos_0a39b48b-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2021/06/test-no-250-easzy-assay-detection-of-endocrine-active-substances-acting-through-estrogen-receptors-using-transgenic-tg-cyp19a1b-gfp-zebrafish-embryos_beefb26a/0a39b48b-en.pdf",
+    "pubid": "0a39b48b"
+  },
+  {
+    "section": "2",
+    "tg_num": "251",
+    "title": "Rapid Androgen Disruption Activity Reporter (RADAR) Assay",
+    "page_url": "https://www.oecd.org/en/publications/test-no-251-rapid-androgen-disruption-activity-reporter-radar-assay_da264d82-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2022/06/test-no-251-rapid-androgen-disruption-activity-reporter-radar-assay_4a37880a/da264d82-en.pdf",
+    "pubid": "da264d82"
+  },
+  {
+    "section": "2",
+    "tg_num": "252",
+    "title": "Rapid Estrogen Activity In Vivo (REACTIV) Assay",
+    "page_url": "https://www.oecd.org/en/publications/test-no-252-rapid-estrogen-activity-in-vitro-reactiv-assay_54066090-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/06/test-no-252-rapid-estrogen-activity-in-vitro-reactiv-assay_739e564b/54066090-en.pdf",
+    "pubid": "54066090"
+  },
+  {
+    "section": "2",
+    "tg_num": "253",
+    "title": "Short-term Juvenile Hormone Activity Screening Assay Using Daphnia magna (JHASA)",
+    "page_url": "https://www.oecd.org/en/publications/test-no-253-short-term-juvenile-hormone-jh-activity-screening-assay-in-daphnia-magna_03cb5c08-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/06/test-no-253-short-term-juvenile-hormone-jh-activity-screening-assay-in-daphnia-magna_f857f4ce/03cb5c08-en.pdf",
+    "pubid": "03cb5c08"
+  },
+  {
+    "section": "2",
+    "tg_num": "254",
+    "title": "Mason Bees (Osmia sp.) Acute Contact Toxicity Test",
+    "page_url": "https://www.oecd.org/en/publications/test-no-254-mason-bees-osmia-sp-acute-contact-toxicity-test_900175fa-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/06/test-no-254-mason-bees-osmia-sp-acute-contact-toxicity-test_4c5a0913/900175fa-en.pdf",
+    "pubid": "900175fa"
+  },
+  {
+    "section": "3",
+    "tg_num": "301",
+    "title": "Ready Biodegradability: CO2 in Sealed Vessels (Headspace Test)",
+    "page_url": "https://www.oecd.org/en/publications/test-no-301-ready-biodegradability_9789264070349-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/1992/07/test-no-301-ready-biodegradability_g1gh2913/9789264070349-en.pdf",
+    "pubid": "9789264070349"
+  },
+  {
+    "section": "3",
+    "tg_num": "305",
+    "title": "Bioaccumulation in Fish: Aqueous and Dietary Exposure",
+    "page_url": "https://www.oecd.org/en/publications/test-no-305-bioaccumulation-in-fish-aqueous-and-dietary-exposure_9789264185296-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2012/10/test-no-305-bioaccumulation-in-fish-aqueous-and-dietary-exposure_g1g24071/9789264185296-en.pdf",
+    "pubid": "9789264185296"
+  },
+  {
+    "section": "3",
+    "tg_num": "307",
+    "title": "Aerobic and Anaerobic Transformation in Soil",
+    "page_url": "https://www.oecd.org/en/publications/test-no-307-aerobic-and-anaerobic-transformation-in-soil_9789264070509-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2002/04/test-no-307-aerobic-and-anaerobic-transformation-in-soil_g1gh2d84/9789264070509-en.pdf",
+    "pubid": "9789264070509"
+  },
+  {
+    "section": "3",
+    "tg_num": "308",
+    "title": "Aerobic and Anaerobic Transformation in Aquatic Sediment Systems",
+    "page_url": "https://www.oecd.org/en/publications/test-no-308-aerobic-and-anaerobic-transformation-in-aquatic-sediment-systems_9789264070523-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2002/04/test-no-308-aerobic-and-anaerobic-transformation-in-aquatic-sediment-systems_g1gh2d86/9789264070523-en.pdf",
+    "pubid": "9789264070523"
+  },
+  {
+    "section": "3",
+    "tg_num": "309",
+    "title": "Aerobic Mineralisation in Surface Water — Simulation Biodegradation Test",
+    "page_url": "https://www.oecd.org/en/publications/test-no-309-aerobic-mineralisation-in-surface-water-simulation-biodegradation-test_9789264070547-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2004/11/test-no-309-aerobic-mineralisation-in-surface-water-simulation-biodegradation-test_g1gh4b4a/9789264070547-en.pdf",
+    "pubid": "9789264070547"
+  },
+  {
+    "section": "3",
+    "tg_num": "313",
+    "title": "Estimation of Emissions from Preservative-Treated Wood to the Environment",
+    "page_url": "https://www.oecd.org/en/publications/test-no-313-estimation-of-emissions-from-preservative-treated-wood-to-the-environment_9789264067370-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2007/10/test-no-313-estimation-of-emissions-from-preservative-treated-wood-to-the-environment_g1gh87b6/9789264067370-en.pdf",
+    "pubid": "9789264067370"
+  },
+  {
+    "section": "3",
+    "tg_num": "314",
+    "title": "Simulation Tests to Assess Biodegradability of Chemicals Discharged in Wastewater",
+    "page_url": "https://www.oecd.org/en/publications/test-no-314-simulation-tests-to-assess-the-biodegradability-of-chemicals-discharged-in-wastewater_9789264067493-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2008/10/test-no-314-simulation-tests-to-assess-the-biodegradability-of-chemicals-discharged-in-wastewater_g1gh9d89/9789264067493-en.pdf",
+    "pubid": "9789264067493"
+  },
+  {
+    "section": "3",
+    "tg_num": "315",
+    "title": "Bioaccumulation in Sediment-dwelling Benthic Oligochaetes",
+    "page_url": "https://www.oecd.org/en/publications/test-no-315-bioaccumulation-in-sediment-dwelling-benthic-oligochaetes_9789264067516-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2008/10/test-no-315-bioaccumulation-in-sediment-dwelling-benthic-oligochaetes_g1gh9d8b/9789264067516-en.pdf",
+    "pubid": "9789264067516"
+  },
+  {
+    "section": "3",
+    "tg_num": "316",
+    "title": "Phototransformation of Chemicals in Water — Direct Photolysis",
+    "page_url": "https://www.oecd.org/en/publications/test-no-316-phototransformation-of-chemicals-in-water-direct-photolysis_9789264067585-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/07/test-no-316-phototransformation-of-chemicals-in-water-direct-photolysis_g1gh9d8e/9789264067585-en.pdf",
+    "pubid": "9789264067585"
+  },
+  {
+    "section": "3",
+    "tg_num": "317",
+    "title": "Bioaccumulation in Terrestrial Oligochaetes",
+    "page_url": "https://www.oecd.org/en/publications/test-no-317-bioaccumulation-in-terrestrial-oligochaetes_9789264090934-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2010/07/test-no-317-bioaccumulation-in-terrestrial-oligochaetes_g1g1138f/9789264090934-en.pdf",
+    "pubid": "9789264090934"
+  },
+  {
+    "section": "3",
+    "tg_num": "318",
+    "title": "Dispersion Stability of Nanomaterials in Simulated Environmental Media",
+    "page_url": "https://www.oecd.org/en/publications/test-no-318-dispersion-stability-of-nanomaterials-in-simulated-environmental-media_9789264284142-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2017/10/test-no-318-dispersion-stability-of-nanomaterials-in-simulated-environmental-media_g1g837a1/9789264284142-en.pdf",
+    "pubid": "9789264284142"
+  },
+  {
+    "section": "3",
+    "tg_num": "319A",
+    "title": "In Vitro Intrinsic Clearance Using Cryopreserved Rainbow Trout Hepatocytes (RT-HEP)",
+    "page_url": "https://www.oecd.org/en/publications/test-no-319a-determination-of-in-vitro-intrinsic-clearance-using-cryopreserved-rainbow-trout-hepatocytes-rt-hep_9789264303218-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2018/06/test-no-319a-determination-of-in-vitro-intrinsic-clearance-using-cryopreserved-rainbow-trout-hepatocytes-rt-hep_g1g90dd3/9789264303218-en.pdf",
+    "pubid": "9789264303218"
+  },
+  {
+    "section": "3",
+    "tg_num": "319B",
+    "title": "In Vitro Intrinsic Clearance Using Rainbow Trout Liver S9 Subcellular Fraction (RT-S9)",
+    "page_url": "https://www.oecd.org/en/publications/test-no-319b-determination-of-in-vitro-intrinsic-clearance-using-rainbow-trout-liver-s9-sub-cellular-fraction-rt-s9_9789264303232-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2018/06/test-no-319b-determination-of-in-vitro-intrinsic-clearance-using-rainbow-trout-liver-s9-sub-cellular-fraction-rt-s9_g1g90dd5/9789264303232-en.pdf",
+    "pubid": "9789264303232"
+  },
+  {
+    "section": "3",
+    "tg_num": "320",
+    "title": "Anaerobic Transformation of Chemicals in Liquid Manure",
+    "page_url": "https://www.oecd.org/en/publications/test-no-320-determining-anaerobic-transformation-of-chemicals-in-liquid-manure_62f5be61-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2022/06/test-no-320-determining-anaerobic-transformation-of-chemicals-in-liquid-manure_1a6eff11/62f5be61-en.pdf",
+    "pubid": "62f5be61"
+  },
+  {
+    "section": "3",
+    "tg_num": "321",
+    "title": "Hyalella azteca Bioconcentration Test (HYBIT)",
+    "page_url": "https://www.oecd.org/en/publications/test-no-321-hyallela-azteca-bioconcentration-test-hybit_8ac30c4e-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/06/test-no-321-hyallela-azteca-bioconcentration-test-hybit_611077ec/8ac30c4e-en.pdf",
+    "pubid": "8ac30c4e"
+  },
+  {
+    "section": "4",
+    "tg_num": "421",
+    "title": "Reproduction/Developmental Toxicity Screening Test",
+    "page_url": "https://www.oecd.org/en/publications/test-no-421-reproduction-developmental-toxicity-screening-test_9789264264380-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2016/07/test-no-421-reproduction-developmental-toxicity-screening-test_g1g6ece8/9789264264380-en.pdf",
+    "pubid": "9789264264380"
+  },
+  {
+    "section": "4",
+    "tg_num": "422",
+    "title": "Combined Repeated Dose Toxicity Study with Reproduction/Developmental Toxicity Screening Test",
+    "page_url": "https://www.oecd.org/en/publications/test-no-422-combined-repeated-dose-toxicity-study-with-the-reproduction-developmental-toxicity-screening-test_9789264264403-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2016/07/test-no-422-combined-repeated-dose-toxicity-study-with-the-reproduction-developmental-toxicity-screening-test_g1g6ecea/9789264264403-en.pdf",
+    "pubid": "9789264264403"
+  },
+  {
+    "section": "4",
+    "tg_num": "431",
+    "title": "In Vitro Skin Corrosion: Reconstructed Human Epidermis (RHE) Test Method",
+    "page_url": "https://www.oecd.org/en/publications/test-no-431-in-vitro-skin-corrosion-reconstructed-human-epidermis-rhe-test-method_9789264264618-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2019/06/test-no-431-in-vitro-skin-corrosion-reconstructed-human-epidermis-rhe-test-method_g1g6ed0a/9789264264618-en.pdf",
+    "pubid": "9789264264618"
+  },
+  {
+    "section": "4",
+    "tg_num": "437",
+    "title": "Bovine Corneal Opacity and Permeability Test Method",
+    "page_url": "https://www.oecd.org/en/publications/test-no-437-bovine-corneal-opacity-and-permeability-test-method-for-identifying-i-chemicals-inducing-serious-eye-damage-and-ii-chemicals-not-requiring-classification-for-eye-irritation-or-serious-eye-damage_9789264203846-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/07/test-no-437-bovine-corneal-opacity-and-permeability-test-method-for-identifying-i-chemicals-inducing-serious-eye-damage-and-ii-chemicals-not-requiring-classification-for-eye-irritation-or-serious-eye-damage_g1g34044/9789264203846-en.pdf",
+    "pubid": "9789264203846"
+  },
+  {
+    "section": "4",
+    "tg_num": "439",
+    "title": "In Vitro Skin Irritation: Reconstructed Human Epidermis Test Methods",
+    "page_url": "https://www.oecd.org/en/publications/test-no-439-in-vitro-skin-irritation-reconstructed-human-epidermis-test-method_9789264242845-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2021/06/test-no-439-in-vitro-skin-irritation-reconstructed-human-epidermis-test-method_g1g59b2f/9789264242845-en.pdf",
+    "pubid": "9789264242845"
+  },
+  {
+    "section": "4",
+    "tg_num": "442B",
+    "title": "Local Lymph Node Assay: BrdU-ELISA or BrdU-FCM",
+    "page_url": "https://www.oecd.org/en/publications/test-no-442b-skin-sensitization_9789264090996-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2017/06/test-no-442b-skin-sensitization_g1g1139e/9789264090996-en.pdf",
+    "pubid": "9789264090996"
+  },
+  {
+    "section": "4",
+    "tg_num": "442C",
+    "title": "In Chemico Skin Sensitisation: Covalent Binding to Proteins",
+    "page_url": "https://www.oecd.org/en/publications/test-no-442c-in-chemico-skin-sensitisation_9789264229709-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/07/test-no-442c-in-chemico-skin-sensitisation_g1g507cd/9789264229709-en.pdf",
+    "pubid": "9789264229709"
+  },
+  {
+    "section": "4",
+    "tg_num": "443",
+    "title": "Extended One-Generation Reproductive Toxicity Study",
+    "page_url": "https://www.oecd.org/en/publications/test-no-443-extended-one-generation-reproductive-toxicity-study_9789264185371-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2018/06/test-no-443-extended-one-generation-reproductive-toxicity-study_g1g2408b/9789264185371-en.pdf",
+    "pubid": "9789264185371"
+  },
+  {
+    "section": "4",
+    "tg_num": "444A",
+    "title": "In Vitro Immunotoxicity: IL-2 Luc and IL-2 Luc LTT Assays",
+    "page_url": "https://www.oecd.org/en/publications/test-no-444a-in-vitro-immunotoxicity_27b10ba3-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/07/test-no-444a-in-vitro-immunotoxicity_1ac6720c/27b10ba3-en.pdf",
+    "pubid": "27b10ba3"
+  },
+  {
+    "section": "4",
+    "tg_num": "456",
+    "title": "H295R Steroidogenesis Assay",
+    "page_url": "https://www.oecd.org/en/publications/test-no-456-h295r-steroidogenesis-assay_9789264122642-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/07/test-no-456-h295r-steroidogenesis-assay_g1g14f4a/9789264122642-en.pdf",
+    "pubid": "9789264122642"
+  },
+  {
+    "section": "4",
+    "tg_num": "467",
+    "title": "Defined Approaches for Serious Eye Damage and Eye Irritation",
+    "page_url": "https://www.oecd.org/en/publications/test-no-467-defined-approaches-for-serious-eye-damage-and-eye-irritation_28fe2841-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2022/06/test-no-467-defined-approaches-for-serious-eye-damage-and-eye-irritation_236dd995/28fe2841-en.pdf",
+    "pubid": "28fe2841"
+  },
+  {
+    "section": "4",
+    "tg_num": "470",
+    "title": "Mammalian Erythrocyte Pig-a Gene Mutation Assay",
+    "page_url": "https://www.oecd.org/en/publications/test-no-470-mammalian-erythrocyte-pig-a-gene-mutation-assay_4faea90e-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2022/06/test-no-470-mammalian-erythrocyte-pig-a-gene-mutation-assay_8d5eb84f/4faea90e-en.pdf",
+    "pubid": "4faea90e"
+  },
+  {
+    "section": "4",
+    "tg_num": "488",
+    "title": "Transgenic Rodent Somatic and Germ Cell Gene Mutation Assays",
+    "page_url": "https://www.oecd.org/en/publications/test-no-488-transgenic-rodent-somatic-and-germ-cell-gene-mutation-assays_9789264203907-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2022/06/test-no-488-transgenic-rodent-somatic-and-germ-cell-gene-mutation-assays_g1g3404a/9789264203907-en.pdf",
+    "pubid": "9789264203907"
+  },
+  {
+    "section": "4",
+    "tg_num": "491",
+    "title": "Short Time Exposure In Vitro Test Method for Eye Damage and Eye Irritation",
+    "page_url": "https://www.oecd.org/en/publications/test-no-491-short-time-exposure-in-vitro-test-method-for-identifying-i-chemicals-inducing-serious-eye-damage-and-ii-chemicals-not-requiring-classification-for-eye-irritation-or-serious-eye-damage_9789264242432-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/07/test-no-491-short-time-exposure-in-vitro-test-method-for-identifying-i-chemicals-inducing-serious-eye-damage-and-ii-chemicals-not-requiring-classification-for-eye-irritation-or-serious-eye-damage_g1g59945/9789264242432-en.pdf",
+    "pubid": "9789264242432"
+  },
+  {
+    "section": "4",
+    "tg_num": "497",
+    "title": "Defined Approaches for Skin Sensitisation",
+    "page_url": null,
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/07/guideline-no-497-defined-approaches-on-skin-sensitisation_30b1718f/b92879a4-en.pdf"
+  },
+  {
+    "section": "5",
+    "tg_num": "501",
+    "title": "Metabolism in Crops",
+    "page_url": "https://www.oecd.org/en/publications/test-no-501-metabolism-in-crops_9789264061835-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2007/01/test-no-501-metabolism-in-crops_g1gh7cea/9789264061835-en.pdf",
+    "pubid": "9789264061835"
+  },
+  {
+    "section": "5",
+    "tg_num": "502",
+    "title": "Metabolism in Rotational Crops",
+    "page_url": "https://www.oecd.org/en/publications/test-no-502-metabolism-in-rotational-crops_9789264061859-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2007/01/test-no-502-metabolism-in-rotational-crops_g1gh7cec/9789264061859-en.pdf",
+    "pubid": "9789264061859"
+  },
+  {
+    "section": "5",
+    "tg_num": "503",
+    "title": "Metabolism in Livestock",
+    "page_url": "https://www.oecd.org/en/publications/test-no-503-metabolism-in-livestock_9789264061873-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2007/01/test-no-503-metabolism-in-livestock_g1gh7ced/9789264061873-en.pdf",
+    "pubid": "9789264061873"
+  },
+  {
+    "section": "5",
+    "tg_num": "504",
+    "title": "Residues in Rotational Crops (Limited Field Studies)",
+    "page_url": "https://www.oecd.org/en/publications/test-no-504-residues-in-rotational-crops-limited-field-studies_9789264013384-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2007/01/test-no-504-residues-in-rotational-crops-limited-field-studies_g1gh7cee/9789264013384-en.pdf",
+    "pubid": "9789264013384"
+  },
+  {
+    "section": "5",
+    "tg_num": "505",
+    "title": "Residues in Livestock",
+    "page_url": "https://www.oecd.org/en/publications/test-no-505-residues-in-livestock_9789264061903-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2007/01/test-no-505-residues-in-livestock_g1gh7cef/9789264061903-en.pdf",
+    "pubid": "9789264061903"
+  },
+  {
+    "section": "5",
+    "tg_num": "506",
+    "title": "Stability of Pesticide Residues in Stored Commodities",
+    "page_url": "https://www.oecd.org/en/publications/test-no-506-stability-of-pesticide-residues-in-stored-commodities_9789264061927-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2007/10/test-no-506-stability-of-pesticide-residues-in-stored-commodities_g1gh87be/9789264061927-en.pdf",
+    "pubid": "9789264061927"
+  },
+  {
+    "section": "5",
+    "tg_num": "507",
+    "title": "Nature of Pesticide Residues in Processed Commodities — High Temperature Hydrolysis",
+    "page_url": "https://www.oecd.org/en/publications/test-no-507-nature-of-the-pesticide-residues-in-processed-commodities-high-temperature-hydrolysis_9789264067431-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2007/10/test-no-507-nature-of-the-pesticide-residues-in-processed-commodities-high-temperature-hydrolysis_g1gh87c0/9789264067431-en.pdf",
+    "pubid": "9789264067431"
+  },
+  {
+    "section": "5",
+    "tg_num": "508",
+    "title": "Magnitude of Pesticide Residues in Processed Commodities",
+    "page_url": "https://www.oecd.org/en/publications/test-no-508-magnitude-of-the-pesticide-residues-in-processed-commodities_9789264067622-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2008/10/test-no-508-magnitude-of-the-pesticide-residues-in-processed-commodities_g1gh9d92/9789264067622-en.pdf",
+    "pubid": "9789264067622"
+  },
+  {
+    "section": "5",
+    "tg_num": "509",
+    "title": "Crop Field Trial",
+    "page_url": "https://www.oecd.org/en/publications/test-no-509-crop-field-trial_9789264076457-en.html",
+    "pdf_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2021/06/test-no-509-crop-field-trial_g1ghbba1/9789264076457-en.pdf",
+    "pubid": "9789264076457"
+  }
+]
