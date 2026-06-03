@@ -188,7 +188,7 @@ Establish regulatory ground truth before any literature search.
 4. **Identity verification** (item 1): require CAS match across ≥2 sources. Write `cross_verified: true` to `regulatory_anchor/01_identity.md`. If fails, BLOCK Phase 3.
 5. For comparative archetype: repeat full anchor for each comparator (N×12).
 6. Output `regulatory_anchor/anchor_summary.md` — synthesised identity + regulatory status + key EFSA endpoints + classification + dated source list.
-7. For legislation, resolve via `assets/eu_ppp_regulations.json` (`local_md` field) before WebFetching EUR-Lex. Cite as CELEX.
+7. For legislation, resolve via `assets/eu_ppp_regulations.json` (CELEX + `eurlex_html` URL) and WebFetch EUR-Lex. Cite as CELEX.
 
 ### Phase 3 — Tiered Literature Search
 
@@ -410,7 +410,7 @@ Gate is identical across classes. Quality floor invariant.
 
 ## Source Hierarchy Quick Reference
 
-See `references/source_hierarchy.md` and `references/discipline_overlays.md` per-discipline rankings. Tier assignment by lookup (`assets/source_tier_lookup.json`), not model judgement.
+See `references/source_ranking.md` and `references/discipline_overlays.md` per-discipline rankings. Tier assignment by lookup (`assets/source_tier_lookup.json`), not model judgement.
 
 When sources conflict, higher tier wins unless lower-tier post-dates higher-tier AND presents new data. Document conflict resolution explicitly.
 
@@ -437,17 +437,8 @@ When sources conflict, higher tier wins unless lower-tier post-dates higher-tier
 - `database_study.md` — registry/dataset analysis; gap analysis; MRL coverage; authorisation footprint
 - `data_analysis.md` — modelling/computation; FOCUS PEC; PRIMo; QSAR; trial statistics
 
-**Templates** (`assets/templates/`) — legacy (superseded; do not use for new reviews):
-- `rapid.md` → use `literature_review.md` + `rapid` modifier
-- `structured.md` → use `literature_review.md`
-- `systematic.md` → use `systematic_review.md`
-- `comparative.md` → use any type + `comparative` modifier
-- `scoping.md` → use `literature_review.md` or `systematic_review.md` + `scoping` modifier
-- `narrative_critical.md` → use `literature_review.md` + SANRA score in Limitations
-- `technical.md` → use `systematic_review.md` + `analytical` or `chemistry` discipline overlay
 
 **Templates** (`assets/` root):
-- `review_template.md` — full structured review skeleton (15 sections)
 - `prisma_template.md` — PRISMA 2020 flow
 - `search_log_template.md` — reproducible search documentation
 - `evidence_table_template.csv` — per-study data extraction
@@ -460,7 +451,6 @@ When sources conflict, higher tier wins unless lower-tier post-dates higher-tier
 - `molecular_structure_rendering.md` — mandatory protocol for structure figure rendering; source priority; caption format; gate requirements
 - `anchor_fallback_paths.md` — chemwise + 2 fallback URLs per anchor item
 - `model_floor_protocol.md` — Claude-only model spec; behavioural floors per tier
-- `source_hierarchy.md` — DEPRECATED; superseded by `source_ranking.md`
 - `quality_appraisal.md` — Klimisch, OHAT, AMSTAR-2, CRED, OECD criteria
 - `eu_regulatory_framework.md` — instrument summary
 - `chemwise_workflow.md` — chemwise MCP call sequence (preferred path)
@@ -479,7 +469,6 @@ When sources conflict, higher tier wins unless lower-tier post-dates higher-tier
 - `oecd_test_guidelines.json` — OECD TG URL resolver
 
 **Regulatory corpus** (`assets/`):
-- `eu_ppp_regulations/` — local markdown copies of EU instruments
 
 **Eval** (`eval/`):
 - `reference_substances/` — golden corpus for periodic model-drift checks
